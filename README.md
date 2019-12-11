@@ -1,0 +1,2 @@
+# rupiah
+Aplikasi pencatat rupiah
