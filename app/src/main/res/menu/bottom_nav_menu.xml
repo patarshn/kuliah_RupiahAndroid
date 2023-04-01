@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/beranda_menu"
+        android:title="@string/beranda"
+        android:icon="@drawable/ic_beranda"/>
+
+    <item
+        android:id="@+id/buat_menu"
+        android:title="@string/buat"
+        android:icon="@drawable/ic_buat"/>
+
+    <item
+        android:id="@+id/gabung_menu"
+        android:title="@string/gabung"
+        android:icon="@drawable/ic_gabung"/>
+
+    <item
+        android:id="@+id/riwayat_menu"
+        android:title="@string/riwayat"
+        android:icon="@drawable/ic_riwayat"/>
+
+    <item
+        android:id="@+id/saya_menu"
+        android:title="@string/saya"
+        android:icon="@drawable/ic_saya"/>
+
+
+</menu>

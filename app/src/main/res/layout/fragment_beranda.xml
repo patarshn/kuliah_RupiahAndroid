@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerandaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:layout_centerInParent="true"
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </androidx.viewpager.widget.ViewPager>
+                </RelativeLayout>
+
+                <ImageButton
+                    android:id="@+id/btn_pemasukan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/activity_icon"
+                    android:layout_margin="@dimen/activity_margin"
+                    android:background="@drawable/beranda3" />
+
+                <ImageButton
+                    android:id="@+id/btn_pengeluaran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/activity_icon"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:background="@drawable/beranda2" />
+
+                <ImageButton
+                    android:id="@+id/btn_grup"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_icon"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:background="@drawable/grup" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

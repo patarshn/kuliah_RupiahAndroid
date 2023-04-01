@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PemasukanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/green">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="#f2faf4"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/activity"
+                    android:paddingLeft="@dimen/activity"
+                    android:src="@drawable/ic_today_black_24dp" />
+
+                <TextView
+                    android:id="@+id/tgl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="80dp"
+                    android:inputType="date"
+                    />
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Saldo"
+                android:padding="@dimen/activity"
+                android:textSize="@dimen/activity"/>
+
+            <EditText
+                android:id="@+id/et_saldo_pemasukan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity"
+                android:layout_marginLeft="@dimen/activity"
+                android:layout_marginRight="@dimen/activity"
+                android:hint="Rp.1xxx"
+                android:textSize="@dimen/activity"
+                android:background="@drawable/border"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Keterangan"
+                android:layout_marginTop="@dimen/activity"
+                android:padding="@dimen/activity"
+                android:textSize="@dimen/activity"/>
+
+            <EditText
+                android:id="@+id/et_keterangan_pemasukan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/activity"
+                android:layout_marginLeft="@dimen/activity"
+                android:layout_marginRight="@dimen/activity"
+                android:hint="Uang Bulanan/Penjualan..."
+                android:textSize="@dimen/activity"
+                android:background="@drawable/border"/>
+
+            <Button
+                android:id="@+id/btn_catat_pemasukan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:text="Catat"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

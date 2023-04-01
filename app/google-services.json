@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "238765429389",
+    "firebase_url": "https://rupiah-49659.firebaseio.com",
+    "project_id": "rupiah-49659",
+    "storage_bucket": "rupiah-49659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238765429389:android:83b3b2857308f7faef08c4",
+        "android_client_info": {
+          "package_name": "com.android.rupiah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238765429389-a6oofhpc645tl6mbdmfa3u5vos3fg2as.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.rupiah",
+            "certificate_hash": "bdfe497174afd190834996e7ef25b4bcd28b90dd"
+          }
+        },
+        {
+          "client_id": "238765429389-beq4e4l38k70l7mmep4v0d723sc05pkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByfrpfeXpsMvB8QP7fOlYOnr50L7BSu-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238765429389-beq4e4l38k70l7mmep4v0d723sc05pkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
